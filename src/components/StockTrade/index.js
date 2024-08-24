@@ -9,12 +9,12 @@ class StockTrade extends Component {
     this.state = {
       symbol: '',
       quantity: 0,
-      type: 'buy',  // 'buy' or 'sell'
+      type: 'buy',  
       message: '',
     };
   }
 
-  // Arrow function automatically binds 'this'
+ 
   handleInputChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };

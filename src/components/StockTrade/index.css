@@ -74,7 +74,7 @@
     color: #333;
   }
   
-  /* Responsive Styles */
+  
   @media screen and (max-width: 768px) {
     .stock-trade-title {
       font-size: 24px;
