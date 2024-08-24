@@ -1,0 +1,103 @@
+
+.stock-trade-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+  
+  }
+  
+  .stock-trade-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .stock-trade-form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .stock-trade-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .stock-trade-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .stock-trade-button:active {
+    background-color: #004494;
+  }
+  
+  .trade-message {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .stock-trade-title {
+      font-size: 24px;
+    }
+  
+    .form-group {
+      gap: 10px;
+    }
+  
+    .stock-trade-button {
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .stock-trade-title {
+      font-size: 20px;
+    }
+  
+    .stock-trade-button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
