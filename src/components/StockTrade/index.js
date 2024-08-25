@@ -1,5 +1,4 @@
 
-
 import React, { Component } from 'react';
 import './index.css';
 
@@ -24,7 +23,7 @@ class StockTrade extends Component {
 
     const { symbol, quantity, type } = this.state;
 
-    fetch('http://localhost:5000/api/trade', {
+    fetch('https://stockmarket-backend-fqvv.onrender.com/api/trade', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ symbol, quantity, type })

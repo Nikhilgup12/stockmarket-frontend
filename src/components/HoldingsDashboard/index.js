@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import './index.css';
 
@@ -12,7 +11,7 @@ class HoldingsDashboard extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:5000/api/holdings')
+    fetch('https://stockmarket-backend-fqvv.onrender.com/api/holdings')
       .then(response => response.json())
       .then(data => {
         this.setState({ holdings: data.holdings });
